@@ -14,30 +14,33 @@ end
 # creation du hash associant les devises et les montants_float:
 crypto_hash = Hash[devises.zip(montants_float)]
 
-# Trouver la ou les crypto qui ont la plus grosse valeur:
+# 1)
+puts "Question 1 = Trouver la ou les crypto qui ont la plus grosse valeur:"
 highest_value = crypto_hash.max_by {|devises, montants_float| montants_float}
+puts "crypto with highest value = #{highest_value}"
+print "\n"
 
-puts "highest crypto is : #{highest_value}"
-
-
-# Trouver la ou les crypto qui ont la plus petite valeur:
+# 2) 
+puts "Question 2 = Trouver la ou les crypto qui ont la plus petite valeur:"
 lowest_value = crypto_hash.min_by {|devises, montants_float| montants_float}
-puts "lowest crypto is : #{lowest_value}"
+puts "crypto with lowest value = #{lowest_value}"
+print "\n"
 
-
-# Trouver les devises dont le cours est inférieur à 6000:
+# 3)Trouver les devises dont le cours est inférieur à 6000:
 below6000_hash = crypto_hash.select { |k, v| v <= 6000 }
-puts "Voici toutes les devises dont le cours est inférieur à 6000 :"
+puts "Question 3 = Voici toutes les devises dont le cours est inférieur à 6000 :"
 below6000_hash.each_key { |key| print "#{key}, " }
-
+print "\n"
+puts " "
 
 # Trouver la devise la plus chère parmi celles dont le cours est inférieur à 6000:
 highest_6000 = below6000_hash.max_by {|devises, montants_float| montants_float}
-puts "le plus chère parmis les crypto inférieure à 6000 est : #{highest_6000}"
+puts "Question 4 = la crypto la plus chère parmi celles dont le cours est inférieur à 6000 = #{highest_6000}"
+print "\n"
+puts "=> ATTENTION: Pour les premières réponses, ça s'passe plus haut cher(e) ami(e) ! ;) "
+puts " "
 
 # Reste a faire la mise en page avec des méthodes pour demander au correcteur quelle question il veut vérifier:
 # -> lui donner la réponse à la question demandée;
 # -> demander s'il veut voir une autres question;
 # -> etc 
-
-# checher le cours sur "REQUIRE" pour voir si c'est pas plus pratique de cette façon plutot qu'avec des méthodes !!!
