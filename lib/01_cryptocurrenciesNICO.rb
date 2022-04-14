@@ -35,7 +35,7 @@ puts " "
 
 # Trouver la devise la plus chère parmi celles dont le cours est inférieur à 6000:
 highest_6000 = below6000_hash.max_by {|devises, montants_float| montants_float}
-puts "Question 4 = la crypto la plus chère parmi celles dont le cours est inférieur à 6000 = #{highest_6000}"
+puts "Question 4 = la crypto la plus cotée parmi celles dont le cours est inférieur à 6000 = #{highest_6000}"
 print "\n"
 puts "=> ATTENTION: Pour les premières réponses, ça s'passe plus haut cher(e) ami(e) ! ;) "
 puts " "
