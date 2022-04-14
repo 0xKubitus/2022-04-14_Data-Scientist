@@ -45,7 +45,7 @@ print "\n"
 puts "Question 5 = Trie la liste de handle par ordre alphabétique."
 reponse5 = array
 
-reponse5.each { |handle| handle.slice!(0) } 
+reponse5.each { |handle| handle.slice(0) } 
 reponse5.each { |handle| handle.downcase! }
 reponse5.each do |handle|
   if handle[0] == "_"
@@ -66,19 +66,13 @@ print "\n"
 
 # 7) 
 puts "Question 7 = Quelle est la position dans l'array de la personne @epenser ?"
-array_filtered = array.select { |handle| handle == "@epenser" }
-
-position_in_array = array.find_index { |handle| handle == "@epenser" }
-
-puts "Position de #{array_filtered} dans l'array : #{position_in_array}"
+puts epenser = array.index("epenser")
 
 print "\n"
 
 # 8) 
-puts "Question 8 = Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, 
-# nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)"
-reponse8 = array.sort_by! { |handle| handle.length }
-print "voici les handle triés du plus petit au plus grand: " + reponse8
+puts "Question 8 = Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)"
+puts epenser = array.index("@epenser")
 
 
 # DERNIERE ETAPE SI J'AI LE TEMPS => Peaufiner tout ça :
