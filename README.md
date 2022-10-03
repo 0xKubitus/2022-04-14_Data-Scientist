@@ -95,13 +95,15 @@ my_hash = {Bitcoin: 6558.07, Ethereum: 468.95, XRP: 0.487526, etc.}
 Hint : Il est entièrement possible de le faire "à la main" via une boucle, mais je t'invite à chercher s’il n'existe pas une méthode Ruby spécialement pour ça 😉.
 
 Une fois cette association réalisée, code un programme Ruby pour donner :
-
-La ou les crypto qui ont la plus grosse valeur.
-La ou les crypto qui ont la plus petite valeur.
-Les devises dont le cours est inférieur à 6000
-La devise la plus chère parmi celles dont le cours est inférieur à 6000.
-3. Rendu attendu
-Ton rendu sera un repo GitHub respectant la structure donnée en 2.1.
+<ul>
+<li>La ou les crypto qui ont la plus grosse valeur.</li>
+<li>La ou les crypto qui ont la plus petite valeur.</li>
+<li>Les devises dont le cours est inférieur à 6000</li>
+<li>La devise la plus chère parmi celles dont le cours est inférieur à 6000.</li>
+</ul>
+ 
+## 3. Rendu attendu
+Ton rendu sera un repo GitHub respectant la structure donnée ci-dessus en 1..
 
 Chaque programme doit permettre aux correcteurs de répondre à toutes les questions listées.
 </details>
