@@ -17,13 +17,10 @@ Une série d'exercices pour découvrir la programmation en Ruby.
 <br/>
 
 ## Comment utiliser ce repo:
-cloner ce repo et lancer chaque programme dans votre Terminal avec les commandes suivantes :
+cloner ce repo et lancer chaque programme dans votre Terminal avec la commande :
 ```
-ruby 00_journalistsNICO.rb
-```
-puis
-```
-01_cryptocurrenciesNICO.rb
+ruby exo_01.rb
+etc...
 ```
 
 <br/>
@@ -32,8 +29,10 @@ puis
 
 
 
-<details>
-<summary># LES CONSIGNES DE THE HACKING PROJECT:</summary>
+<details open>
+<summary>
+# LES CONSIGNES DE THE HACKING PROJECT:
+</summary>
 <br>
 Well, you asked for it!
 </details>
