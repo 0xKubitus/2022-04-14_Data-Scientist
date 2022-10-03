@@ -103,7 +103,7 @@ Une fois cette association réalisée, code un programme Ruby pour donner :
 </ul>
  
 ## 3. Rendu attendu
-Ton rendu sera un repo GitHub respectant la structure donnée ci-dessus en 1..
+Ton rendu sera un repo GitHub respectant la structure donnée ci-dessus en 1.
 
 Chaque programme doit permettre aux correcteurs de répondre à toutes les questions listées.
 </details>
