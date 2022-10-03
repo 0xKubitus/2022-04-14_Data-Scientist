@@ -62,17 +62,18 @@ Voici un array de handle Twitter (l'équivalent d'un nom de login chez Twitter) 
  
 ## À partir de cette array, code un programme ruby qui répondra aux questions suivantes :
 <ul>
-Combien y a-t-il de handle dans cette array ?
-Quel est le handle le plus court de cette liste ?
-Combien y-a-t'il de handle contenant 5 caractères (le @ ne compte pas pour un caractère)
-Combien commencent par une majuscule (première lettre juste après le @) ?
-Trie la liste de handle par ordre alphabétique.
-Trie la liste de handle par taille des handle (les plus petits en premiers, les plus grands après)
-Quelle est la position dans l'array de la personne @epenser ?
-Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)
+<li>Combien y a-t-il de handle dans cette array ?</li>
+<li>Quel est le handle le plus court de cette liste ?</li>
+<li>Combien y-a-t'il de handle contenant 5 caractères (le `@` ne compte pas pour un caractère)</li>
+<li>Combien commencent par une majuscule (première lettre juste après le `@`) ?</li>
+<li>Trie la liste de handle par ordre alphabétique.</li>
+<li>Trie la liste de handle par taille des handle (les plus petits en premiers, les plus grands après)</li>
+<li>Quelle est la position dans l'array de la personne `@epenser` ?</li>
+<li>Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)</li>
  </ul>
  
-Si tu as bien compris, quand tu lances le script, les réponses aux questions s'affichent sur ton écran de Terminal via des puts. N'hésite pas à ajouter un peu de pep’s à ton programme en écrivant des phrases, en ajoutant des blagues, voir en faisant un menu (pour les plus chauds) où l'utilisateur peut choisir, dans une liste, la question à laquelle le programme va répondre.
+Si tu as bien compris, quand tu lances le script, les réponses aux questions s'affichent sur ton écran de Terminal via des `puts`. 
+N'hésite pas à ajouter un peu de pep’s à ton programme en écrivant des phrases, en ajoutant des blagues, voir en faisant un menu (pour les plus chauds) où l'utilisateur peut choisir, dans une liste, la question à laquelle le programme va répondre.
 
 2.3. Blockchain
 Après le succès de votre firme, vous vous êtes dits que vous pourriez mélanger deux fois plus de buzzwords et faire une firme qui fait de la big data sur de la blockchain. Votre idée est en train de disrupter le consulting et tous les grands groupes en quête de digitalisation veulent faire appel à vos services. Vous venez de signer un contrat pour Carrefour.io et vous allez devoir analyser des données de cryptomonnaies.
