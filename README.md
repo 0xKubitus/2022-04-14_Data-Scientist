@@ -33,7 +33,7 @@ ruby <nom_du_programme>.rb
 
 
 
-<details open>
+<details>
 <summary>
 LES CONSIGNES DE THE HACKING PROJECT:
 </summary>
