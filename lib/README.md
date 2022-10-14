@@ -1,19 +1,15 @@
 <div align="center">
 
-[![THP Badge](https://github.com/0xKubitus/Usefull-Stuff-for-README/blob/main/assets/mkdwn-badges/the-hacking-project.svg
-)](https://www.thehackingproject.org/)
-# Data scientist
+ [![THP Badge](https://github.com/0xKubitus/Usefull-Stuff-for-README/blob/main/assets/mkdwn-badges/the-hacking-project.svg
+ )](https://www.thehackingproject.org/)
+ 
+ # Data scientist
 
-### Avec ce projet, j'ai appris manipuler des arrays et des hashs contenant des centaines d'éléments, le tout via un programme dans un dossier Ruby bien rangé.
+ [![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
+ 
+### Aujourd'hui, j'ai appris manipuler des arrays et des hashs contenant des centaines d'éléments, le tout via un programme dans un dossier Ruby bien rangé.
 
-<br/>
-
-
-[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
-
-</div>
-
-
+ </div>
 
 
 <br/>
